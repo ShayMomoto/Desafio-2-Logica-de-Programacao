@@ -1,88 +1,98 @@
-🏆 Calculadora de Partidas Rankeadas
+# 🏆 Calculadora de Partidas Rankeadas
 
 Projeto desenvolvido como desafio de Lógica de Programação em JavaScript, com o objetivo de praticar conceitos fundamentais como variáveis, operadores, estruturas de decisão, laços de repetição e funções.
 
 A aplicação calcula o saldo de partidas ranqueadas de um jogador e define seu nível de acordo com a quantidade de vitórias.
 
-🎯 Objetivo
+------------------------------------------------------------------------
+# 🎯 Objetivo
 
 Criar uma função que receba:
 
-✔️ Número de vitórias
+- ✔️ Número de vitórias
 
-✔️ Número de derrotas
+- ✔️ Número de derrotas
 
 E retorne:
 
-🔢 O saldo de vitórias (vitórias - derrotas)
+- 🔢 O saldo de vitórias (vitórias - derrotas)
 
-🏅 O nível do jogador conforme regras de classificação.
+- 🏅 O nível do jogador conforme regras de classificação.
 
 Ao final, o programa exibe a mensagem:
 
-"O Herói tem de saldo de {saldoVitorias} está no nível de {nivel}"
+- "O Herói tem de saldo de {saldoVitorias} está no nível de {nivel}"
+------------------------------------------------------------------------
 
-🧠 Regras de Classificação
-Vitórias	Nível
-Menor que 10	Ferro
-11 a 20	Bronze
-21 a 50	Prata
-51 a 80	Ouro
-81 a 90	Diamante
-91 a 100	Lendário
-Maior ou igual a 101	Imortal
-🚀 Tecnologias Utilizadas
+## 🧠 Regras de Classificação
 
-JavaScript (Node.js)
+  XP                       Nível
+  ------------------------ ------------
+  Menor que 1000           Ferro
+  1001 a 2000              Bronze
+  2001 a 5000              Prata
+  5001 a 7000              Ouro
+  7001 a 8000              Platina
+  8001 a 9000              Ascendente
+  9001 a 10000             Imortal
+  Maior ou igual a 10001   Radiante
 
-Biblioteca nativa: readline
+------------------------------------------------------------------------
 
-📦 Instalação
+## 🚀 Tecnologias Utilizadas
+
+-   JavaScript (Node.js)
+-   Biblioteca nativa: readline
+
+------------------------------------------------------------------------
+
+## 📦 Instalação
 
 Clone o repositório:
 
-git clone https://github.com/seu-usuario/seu-repositorio.git
-
+``` bash
+git clone https://github.com/ShayMomoto/Desafio-2-Logica-de-Programacao
+```
 
 Acesse a pasta do projeto:
 
-cd seu-repositorio
+``` bash
+cd Desafio-2-Logica-de-Programacao
+```
 
-▶️ Como Executar
+------------------------------------------------------------------------
 
-No terminal, execute:
+## ▶️ Como Executar
 
-node index.js
+Execute o comando:
 
+``` bash
+node desafio2.js
+```
 
-(Caso o arquivo tenha outro nome, ajuste o comando.)
+------------------------------------------------------------------------
 
-💻 Exemplo de Uso
+## 🎯 Objetivo do Projeto
 
-Entrada:
+Este projeto tem como objetivo praticar:
 
-Vitórias: 60
-Derrotas: 10
+-   Variáveis
+-   Operadores matemáticos
+-   Estruturas condicionais (`if/else`)
+-   Laço de repetição
+-   Entrada e saída no terminal
+-   Funções
 
+------------------------------------------------------------------------
 
-Saída:
+## 📚 Curso
 
-O Herói tem de saldo de 50 está no nível de Ouro
+Projeto baseado em desafio proposto pela plataforma:
 
-📚 Conceitos Aplicados
+> (DIO)
 
-Variáveis
+------------------------------------------------------------------------
 
-Operadores matemáticos
-
-Estruturas condicionais (if / else)
-
-Funções
-
-Laço de repetição
-
-Entrada e saída no terminal
-
-🧑‍💻 Autor
+## 🧑‍💻 Autor
 
 João Victor Oliveira Santos
